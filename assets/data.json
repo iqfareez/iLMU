@@ -1,0 +1,177 @@
+{
+    "items": [
+        {
+            "title": "Arduino",
+            "desc": "Ilmu programming yang melibatkan IoT",
+            "image": "assets/images/course-arduino.jpg",
+            "author": "Dr. Farhana",
+            "videos" : [
+                {
+                    "title": "Chapter 1",
+                    "duration": "40",
+                    "level": "Basic",
+                    "video": "assets/videos/piano.mp4",
+                    "thumbnail": "assets/images/course-arduino.jpg"
+                },
+                {
+                    "title": "Chapter 2",
+                    "duration": "40",
+                    "level": "Basic",
+                    "video": "assets/videos/piano.mp4",
+                    "thumbnail": "assets/images/course-arduino.jpg"
+                },
+                {
+                    "title": "Chapter 3",
+                    "duration": "40",
+                    "level": "Intermediate",
+                    "video": "assets/videos/piano.mp4",
+                    "thumbnail": "assets/images/course-arduino.jpg"
+                }
+            ]
+        },
+        {
+            "title": "Cetak Batik",
+            "desc": "Ilmu mencetak batik kaedah asli",
+            "image": "assets/images/course-batik.jpg",
+            "author":"Encik Farid",
+            "videos" : [
+                {
+                    "title": "Chapter 1",
+                    "duration": "40",
+                    "level": "Basic",
+                    "video": "assets/videos/piano.mp4",
+                    "thumbnail": "assets/images/course-batik.jpg"
+                },
+                {
+                    "title": "Chapter 2",
+                    "duration": "40",
+                    "level": "Basic",
+                    "video": "assets/videos/piano.mp4",
+                    "thumbnail": "assets/images/course-batik.jpg"
+                },
+                {
+                    "title": "Chapter 3",
+                    "duration": "40",
+                    "level": "Intermediate",
+                    "video": "assets/videos/piano.mp4",
+                    "thumbnail": "assets/images/course-batik.jpg"
+                },
+                {
+                    "title": "Chapter 4",
+                    "duration": "40",
+                    "level": "Advanced",
+                    "video": "assets/videos/piano.mp4",
+                    "thumbnail": "assets/images/course-batik.jpg"
+                }
+            ]
+        },
+        {
+            "title": "Gitar",
+            "desc": "Ilmu teori muzik dalam bermain gitar",
+            "image": "assets/images/course-guitar.jpg",
+            "author":"Cikgu Shafiq",
+            "videos" : [
+                {
+                    "title": "Chapter 1",
+                    "duration": "40",
+                    "level": "Basic",
+                    "video": "assets/videos/piano.mp4",
+                    "thumbnail": "assets/images/course-guitar.jpg"
+                },
+                {
+                    "title": "Chapter 2",
+                    "duration": "40",
+                    "level": "Basic",
+                    "video": "assets/videos/piano.mp4",
+                    "thumbnail": "assets/images/course-guitar.jpg"
+                },
+                {
+                    "title": "Chapter 3",
+                    "duration": "40",
+                    "level": "Intermediate",
+                    "video": "assets/videos/piano.mp4",
+                    "thumbnail": "assets/images/course-guitar.jpg"
+                },
+                {
+                    "title": "Chapter 4",
+                    "duration": "40",
+                    "level": "Advanced",
+                    "video": "assets/videos/piano.mp4",
+                    "thumbnail": "assets/images/course-guitar.jpg"
+                }
+            ]
+        },
+        {
+            "title": "Videografi",
+            "desc": "Mengetahui teknik mengolah yang betul",
+            "image": "assets/images/course-video.jpg",
+            "author":"Cik Rehan",
+            "videos" : [
+                {
+                    "title": "Chapter 1",
+                    "duration": "40",
+                    "level": "Basic",
+                    "video": "assets/videos/piano.mp4",
+                    "thumbnail": "assets/images/course-video.jpg"
+                },
+                {
+                    "title": "Chapter 2",
+                    "duration": "40",
+                    "level": "Basic",
+                    "video": "assets/videos/piano.mp4",
+                    "thumbnail": "assets/images/course-video.jpg"
+                },
+                {
+                    "title": "Chapter 3",
+                    "duration": "40",
+                    "level": "Intermediate",
+                    "video": "assets/videos/piano.mp4",
+                    "thumbnail": "assets/images/course-video.jpg"
+                },
+                {
+                    "title": "Chapter 4",
+                    "duration": "40",
+                    "level": "Advanced",
+                    "video": "assets/videos/piano.mp4",
+                    "thumbnail": "assets/images/course-video.jpg"
+                }
+            ]
+        },
+        {
+            "title": "Piano",
+            "desc": "Ilmu teori muzik dalam bermain piano",
+            "image": "assets/images/course-piano.jpg",
+            "author":"Miss Gloria",
+            "videos" : [
+                {
+                    "title": "Chapter 1",
+                    "duration": "40",
+                    "level": "Basic",
+                    "video": "assets/videos/piano.mp4",
+                    "thumbnail": "assets/images/course-piano.jpg"
+                },
+                {
+                    "title": "Chapter 2",
+                    "duration": "40",
+                    "level": "Basic",
+                    "video": "assets/videos/piano.mp4",
+                    "thumbnail": "assets/images/course-piano.jpg"
+                },
+                {
+                    "title": "Chapter 3",
+                    "duration": "40",
+                    "level": "Intermediate",
+                    "video": "assets/videos/piano.mp4",
+                    "thumbnail": "assets/images/course-piano.jpg"
+                },
+                {
+                    "title": "Chapter 4",
+                    "duration": "40",
+                    "level": "Advanced",
+                    "video": "assets/videos/piano.mp4",
+                    "thumbnail": "assets/images/course-piano.jpg"
+                }
+            ]
+        }
+    ]
+}
