@@ -24,13 +24,13 @@ class _MyAppState extends State<MyApp> {
     super.initState();
     SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
   }
-  
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       // builder: DevicePreview.appBuilder,
       // locale: DevicePreview.locale(context),
-      title: 'Flutter Demo',
+      title: 'iLMU App',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
@@ -38,15 +38,15 @@ class _MyAppState extends State<MyApp> {
           builders: {
             TargetPlatform.android: CupertinoPageTransitionsBuilder(),
             TargetPlatform.iOS: CupertinoPageTransitionsBuilder(),
-          }
-        )
+          },
+        ),
       ),
       // home: HomePage()
       home: BaseWidget(
         builder: (context, sizingInformation) {
           return LoginScreen();
         },
-      )
+      ),
     );
   }
 }

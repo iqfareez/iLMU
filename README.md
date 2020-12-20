@@ -1,4 +1,4 @@
-# skooled
+# iLMU
 
 A new Flutter project.
 
