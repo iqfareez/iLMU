@@ -2,174 +2,97 @@
     "items": [
         {
             "title": "Arduino",
-            "desc": "Ilmu programming yang melibatkan IoT",
+            "brief": "Ilmu programming yang melibatkan IoT",
+            "desc": "Anda pernah mendengar mengenai Arduino? Apakah Arduino? Jom! Sertai kelas Dr Farhana bagi mengetahui Arduino dengan lebih mendalam. Arduino adalah micropengawal atau lebih dikenali sebagai “microcontroller” . Arduino merupakan platform permulaan bagi mempelajari mikropengawal dengan mudah dan murah, juga boleh digunakan oleh orang selain jurutera. Kelas Arduino ini akan dibimbing oleh Dr Farhana yang mempunyai PhD dalam bidang robotik dari UiTM.",
             "image": "assets/images/course-arduino.jpg",
             "author": "Dr. Farhana",
             "videos" : [
                 {
                     "title": "Chapter 1",
-                    "duration": "40",
+                    "duration": "0.22",
                     "level": "Basic",
-                    "video": "assets/videos/piano.mp4",
-                    "thumbnail": "assets/images/course-arduino.jpg"
-                },
-                {
-                    "title": "Chapter 2",
-                    "duration": "40",
-                    "level": "Basic",
-                    "video": "assets/videos/piano.mp4",
-                    "thumbnail": "assets/images/course-arduino.jpg"
-                },
-                {
-                    "title": "Chapter 3",
-                    "duration": "40",
-                    "level": "Intermediate",
-                    "video": "assets/videos/piano.mp4",
+                    "video": "assets/videos/course-arduino.mp4",
                     "thumbnail": "assets/images/course-arduino.jpg"
                 }
             ]
         },
         {
             "title": "Cetak Batik",
-            "desc": "Ilmu mencetak batik kaedah asli",
+            "brief": "Ilmu mencetak batik kaedah asli",
+            "desc": "Ilmu cetak Batik adalah salah satu ilmu traditional dari turun menurun yang sangat berharga di Malaysia. Kini anda boleh mempelajarinya dengan hanya menonton video-video yang telah disediakan oleh Encik Rosli iaitu salah seorang penenun batik yang terkemuka di Malaysia dan kini anda berpeluang untuk mendapat tempat ekslusif untuk menimbah ilmu dalam menenun batik dengan bimbingan dari beliau sendiri.",
             "image": "assets/images/course-batik.jpg",
             "author":"Encik Farid",
             "videos" : [
                 {
                     "title": "Chapter 1",
-                    "duration": "40",
+                    "duration": "1.00",
                     "level": "Basic",
-                    "video": "assets/videos/piano.mp4",
-                    "thumbnail": "assets/images/course-batik.jpg"
-                },
-                {
-                    "title": "Chapter 2",
-                    "duration": "40",
-                    "level": "Basic",
-                    "video": "assets/videos/piano.mp4",
-                    "thumbnail": "assets/images/course-batik.jpg"
-                },
-                {
-                    "title": "Chapter 3",
-                    "duration": "40",
-                    "level": "Intermediate",
-                    "video": "assets/videos/piano.mp4",
-                    "thumbnail": "assets/images/course-batik.jpg"
-                },
-                {
-                    "title": "Chapter 4",
-                    "duration": "40",
-                    "level": "Advanced",
-                    "video": "assets/videos/piano.mp4",
+                    "video": "assets/videos/course-batik.MP4",
                     "thumbnail": "assets/images/course-batik.jpg"
                 }
             ]
         },
         {
             "title": "Gitar",
-            "desc": "Ilmu teori muzik dalam bermain gitar",
+            "brief": "Ilmu teori muzik dalam bermain gitar",
+            "desc": "Ingin belajar bermain gitar? Kursus ini merangkumi pelbagai aspek bermain gitar termasuk tetapi tidak terhad kepada; teknik memetik, ilmu teori kod, ilmu bermain solo, teknik penjagaan gitar dan juga cara mencipta melodi. Ilmu yang disediakan adalah daripada asas sehinggalah tahap tinggi. Kursus ini disusun rapi oleh Encik Shafiq, seorang bekas pemain gitar untuk kumpulan music Pistol dan Ros dan mempunyai lebih 25 tahun pengalaman bermain.",
             "image": "assets/images/course-guitar.jpg",
             "author":"Cikgu Shafiq",
             "videos" : [
                 {
                     "title": "Chapter 1",
-                    "duration": "40",
+                    "duration": "0.27",
                     "level": "Basic",
-                    "video": "assets/videos/piano.mp4",
-                    "thumbnail": "assets/images/course-guitar.jpg"
-                },
-                {
-                    "title": "Chapter 2",
-                    "duration": "40",
-                    "level": "Basic",
-                    "video": "assets/videos/piano.mp4",
-                    "thumbnail": "assets/images/course-guitar.jpg"
-                },
-                {
-                    "title": "Chapter 3",
-                    "duration": "40",
-                    "level": "Intermediate",
-                    "video": "assets/videos/piano.mp4",
-                    "thumbnail": "assets/images/course-guitar.jpg"
-                },
-                {
-                    "title": "Chapter 4",
-                    "duration": "40",
-                    "level": "Advanced",
-                    "video": "assets/videos/piano.mp4",
+                    "video": "assets/videos/course-gitar.mp4",
                     "thumbnail": "assets/images/course-guitar.jpg"
                 }
             ]
         },
         {
             "title": "Videografi",
-            "desc": "Mengetahui teknik mengolah yang betul",
+            "brief": "Mengetahui teknik mengolah yang betul",
+            "desc": "Kursus ini merangkumi penyuntingan digital yang menggunakan alat perisian semasa. Anda akan belajar cara pengunaan perkakasan dan perisian penyuntingan digital bukan linear dan penciptaan audio pelbagai trek.  Proses pembelajaran  ini dilakukan secara rakaman video latihan yang akan disediakan khas oleh Cik Rehan iaitu seorang video editor yang professional dan anda juga  berpeluang memiliki beberapa template khas beliau.",
             "image": "assets/images/course-video.jpg",
             "author":"Cik Rehan",
             "videos" : [
                 {
                     "title": "Chapter 1",
-                    "duration": "40",
+                    "duration": "0.33",
                     "level": "Basic",
-                    "video": "assets/videos/piano.mp4",
-                    "thumbnail": "assets/images/course-video.jpg"
-                },
-                {
-                    "title": "Chapter 2",
-                    "duration": "40",
-                    "level": "Basic",
-                    "video": "assets/videos/piano.mp4",
-                    "thumbnail": "assets/images/course-video.jpg"
-                },
-                {
-                    "title": "Chapter 3",
-                    "duration": "40",
-                    "level": "Intermediate",
-                    "video": "assets/videos/piano.mp4",
-                    "thumbnail": "assets/images/course-video.jpg"
-                },
-                {
-                    "title": "Chapter 4",
-                    "duration": "40",
-                    "level": "Advanced",
-                    "video": "assets/videos/piano.mp4",
+                    "video": "assets/videos/course-videografi.MP4",
                     "thumbnail": "assets/images/course-video.jpg"
                 }
             ]
         },
         {
-            "title": "Piano",
-            "desc": "Ilmu teori muzik dalam bermain piano",
-            "image": "assets/images/course-piano.jpg",
-            "author":"Miss Gloria",
+            "title": "Photoshop",
+            "brief": "Ilmu teori berkaitan Adobe Photoshop",
+            "desc": "Anda berminat untuk pelajari cara menggunakan adobe photoshop? Anda telah datang ke tempat yang betul. Cik Gloria akan mengajar cara untuk mahirkan ilmu berkaitan adobe photoshop. Cik Gloria mempunyai pengalaman selama 6 tahun berkerja sebagai salah satu penyunting di syarikat KBS iaitu salah satu syarikat Korea terbesar di dunia.",
+            "image": "assets/images/course-ps.jpg",
+            "author":"Cik Gloria",
             "videos" : [
                 {
                     "title": "Chapter 1",
-                    "duration": "40",
+                    "duration": "0.42",
                     "level": "Basic",
-                    "video": "assets/videos/piano.mp4",
-                    "thumbnail": "assets/images/course-piano.jpg"
-                },
+                    "video": "assets/videos/course-ps.MP4",
+                    "thumbnail": "assets/images/course-ps.jpg"
+                }
+            ]
+        },
+        {
+            "title": "Tenis",
+            "brief": "Ilmu teori dan teknik-teknik sukan tenis",
+            "desc": "Tenis merupakan sukan yang terkenal di Malaysia dan sudah pastinya anda akan berminat untuk mengasah bakat anda untuk bermain tenis dengan teknik-teknik yang betul. Kelas ini akan dibimbing oleh Encik Farid iaitu salah seorang pemain tenis profesional yang pernah mewakili Malaysia di Sukan Sea dan kali ini anda berpeluang untuk belajar dengan beliau.",
+            "image": "assets/images/course-tennis.jpg",
+            "author":"Encik Farid",
+            "videos" : [
                 {
-                    "title": "Chapter 2",
-                    "duration": "40",
+                    "title": "Chapter 1",
+                    "duration": "0.50",
                     "level": "Basic",
-                    "video": "assets/videos/piano.mp4",
-                    "thumbnail": "assets/images/course-piano.jpg"
-                },
-                {
-                    "title": "Chapter 3",
-                    "duration": "40",
-                    "level": "Intermediate",
-                    "video": "assets/videos/piano.mp4",
-                    "thumbnail": "assets/images/course-piano.jpg"
-                },
-                {
-                    "title": "Chapter 4",
-                    "duration": "40",
-                    "level": "Advanced",
-                    "video": "assets/videos/piano.mp4",
-                    "thumbnail": "assets/images/course-piano.jpg"
+                    "video": "assets/videos/course-tennis.MP4",
+                    "thumbnail": "assets/images/course-tennis.jpg"
                 }
             ]
         }

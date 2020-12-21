@@ -36,6 +36,7 @@ class _CourseDetailState extends State<CourseDetail> {
   void initState() {
     super.initState();
     initVideos();
+    // getTotalVideosDuration();
     this.initializePlayer(setSelectedIndex(0));
   }
 
@@ -64,7 +65,8 @@ class _CourseDetailState extends State<CourseDetail> {
   }
 
   Future<void> initializePlayer(int index) async {
-    _videoPlayerController = VideoPlayerController.asset(this.videos[index].video);
+    _videoPlayerController =
+        VideoPlayerController.asset(this.videos[index].video);
     await _videoPlayerController.initialize().then((value) {
       _videoPlayerController.addListener(() {
         setState(() {
@@ -96,7 +98,7 @@ class _CourseDetailState extends State<CourseDetail> {
       ),
     );
     _chewieController.addListener(() {
-      if (!_chewieController.isFullScreen) 
+      if (!_chewieController.isFullScreen)
         SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
     });
     setState(() {});
@@ -137,7 +139,8 @@ class _CourseDetailState extends State<CourseDetail> {
                               backgroundColor: darkblue,
                             ),
                             SizedBox(height: 20),
-                            customText(context, 60.sp, FontWeight.bold, darkblue, "Loading..."),
+                            customText(context, 60.sp, FontWeight.bold,
+                                darkblue, "Loading..."),
                           ],
                         ),
                       ),
@@ -163,8 +166,12 @@ class _CourseDetailState extends State<CourseDetail> {
                           Expanded(
                             flex: 2,
                             child: Container(
-                              child: customText(context, 60.sp, FontWeight.bold, darkblue, widget.course.title)
-                            ),
+                                child: customText(
+                                    context,
+                                    60.sp,
+                                    FontWeight.bold,
+                                    darkblue,
+                                    widget.course.title)),
                           ),
                           Expanded(
                             child: Container(
@@ -174,7 +181,11 @@ class _CourseDetailState extends State<CourseDetail> {
                                 children: [
                                   customText(context, 40.sp, FontWeight.normal,
                                       darkblue.withOpacity(0.5), "Duration"),
-                                  customText(context, 40.sp, FontWeight.bold, darkblue,
+                                  customText(
+                                      context,
+                                      40.sp,
+                                      FontWeight.bold,
+                                      darkblue,
                                       totalDuration.toString() + " Min"),
                                 ],
                               ),
@@ -185,41 +196,38 @@ class _CourseDetailState extends State<CourseDetail> {
                     ),
                     Container(
                       padding: EdgeInsets.only(top: 20.h, bottom: 20.h),
-                      child: customText(context, 40.sp, FontWeight.normal, darkblue,
-                          //this.widget.course.desc
-                          "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-                          ),
+                      child: customText(context, 40.sp, FontWeight.normal,
+                          darkblue, this.widget.course.desc),
                     ),
                   ],
                 ),
               ),
             ),
             Container(
-              height: 10.h, 
+              height: 10.h,
               //color: Colors.red
             ),
             Container(
               width: 0.9.sw,
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(24),
-                border: Border.all(width: 2, color: darkblue.withOpacity(0.5)),
-                boxShadow: [
-                  BoxShadow(
-                    color: darkblue.withOpacity(0.5),
-                    blurRadius: 5.w,
-                    offset: Offset(0, 3)
-                  )
-                ]
-              ),
+                  borderRadius: BorderRadius.circular(24),
+                  border:
+                      Border.all(width: 2, color: darkblue.withOpacity(0.5)),
+                  boxShadow: [
+                    BoxShadow(
+                        color: darkblue.withOpacity(0.5),
+                        blurRadius: 5.w,
+                        offset: Offset(0, 3))
+                  ]),
             ),
             SizedBox(height: 50.h),
             Expanded(
               child: Container(
-                //color: Colors.blue,
-                child: FadingEdgeScrollView.fromScrollView(
-                  gradientFractionOnStart: 0.2,
-                  gradientFractionOnEnd: 0.2,
-                  child: ListView.builder(
+                  //color: Colors.blue,
+                  child: FadingEdgeScrollView.fromScrollView(
+                gradientFractionOnStart: 0.2,
+                gradientFractionOnEnd: 0.2,
+                child: ListView.builder(
                     controller: listViewController2,
                     padding: EdgeInsets.zero,
                     itemCount: widget.course.videos.length,
@@ -229,17 +237,22 @@ class _CourseDetailState extends State<CourseDetail> {
                         video.setIsPlaying(isPlaying);
                       }
                       return ListTile(
-                        contentPadding: EdgeInsets.only(left: 0.06.sw, right: 0.06.sw, top: 10.h, bottom: 10.h),
+                        contentPadding: EdgeInsets.only(
+                            left: 0.06.sw,
+                            right: 0.06.sw,
+                            top: 10.h,
+                            bottom: 10.h),
                         leading: Container(
                           height: 180.h,
                           width: 180.h,
                           child: ClipRRect(
                             borderRadius: BorderRadius.circular(10),
-                            child: Image.asset(video.thumbnail, fit: BoxFit.cover),
+                            child:
+                                Image.asset(video.thumbnail, fit: BoxFit.cover),
                           ),
                         ),
-                        title:
-                            customText(context, 40.sp, FontWeight.bold, darkblue, video.title),
+                        title: customText(context, 40.sp, FontWeight.bold,
+                            darkblue, video.title),
                         subtitle: Container(
                           height: 40.h,
                           child: Row(
@@ -248,41 +261,44 @@ class _CourseDetailState extends State<CourseDetail> {
                               Expanded(
                                   child: Container(
                                       child: Row(
-                                        crossAxisAlignment: CrossAxisAlignment.center,
-                                        mainAxisAlignment: MainAxisAlignment.start,
-                                        children: [
-                                          Icon(Icons.access_time_rounded, size: 40.h, color: darkblue.withOpacity(0.5)),
-                                          customText(context, 40.sp, FontWeight.normal, darkblue.withOpacity(0.5),
-                                              video.durationMin + " min"),
-                                        ],
-                                      ))),
+                                crossAxisAlignment: CrossAxisAlignment.center,
+                                mainAxisAlignment: MainAxisAlignment.start,
+                                children: [
+                                  Icon(Icons.access_time_rounded,
+                                      size: 40.h,
+                                      color: darkblue.withOpacity(0.5)),
+                                  customText(
+                                      context,
+                                      40.sp,
+                                      FontWeight.normal,
+                                      darkblue.withOpacity(0.5),
+                                      video.durationMin + " min"),
+                                ],
+                              ))),
                               Expanded(
                                   child: Container(
-                                      child: customText(context, 40.sp, FontWeight.normal, darkblue.withOpacity(0.5),
+                                      child: customText(
+                                          context,
+                                          40.sp,
+                                          FontWeight.normal,
+                                          darkblue.withOpacity(0.5),
                                           video.level))),
                             ],
                           ),
                         ),
                         trailing: InkWell(
-                          child: selectedIndex != i?
-                          Icon(Icons.play_arrow_rounded,
-                            size: 100.h, 
-                            color: darkblue.withOpacity(0.5)
-                          )
-                          : controllerPlaying?
-                          Icon(
-                            Icons.pause_rounded, 
-                            size: 100.h, 
-                            color: darkblue
-                          )
-                          : Icon(
-                            Icons.play_arrow_rounded, 
-                            size: 100.h, 
-                            color: darkblue
-                          ),
+                          child: selectedIndex != i
+                              ? Icon(Icons.play_arrow_rounded,
+                                  size: 100.h, color: darkblue.withOpacity(0.5))
+                              : controllerPlaying
+                                  ? Icon(Icons.pause_rounded,
+                                      size: 100.h, color: darkblue)
+                                  : Icon(Icons.play_arrow_rounded,
+                                      size: 100.h, color: darkblue),
                           onTap: () {
                             if (selectedIndex == i) {
-                              if (_chewieController.videoPlayerController.value.isPlaying) {
+                              if (_chewieController
+                                  .videoPlayerController.value.isPlaying) {
                                 _videoPlayerController.pause();
                               } else {
                                 _videoPlayerController.play();
@@ -296,16 +312,15 @@ class _CourseDetailState extends State<CourseDetail> {
                           },
                         ),
                       );
-                    }
-                  ),
-                )
-              ),
+                    }),
+              )),
             ),
           ],
         ),
       ),
     );
   }
+
   @override
   void dispose() {
     _videoPlayerController.dispose();
