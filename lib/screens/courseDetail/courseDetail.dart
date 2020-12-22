@@ -36,7 +36,7 @@ class _CourseDetailState extends State<CourseDetail> {
   void initState() {
     super.initState();
     initVideos();
-    // getTotalVideosDuration();
+    getTotalVideosDuration();
     this.initializePlayer(setSelectedIndex(0));
   }
 

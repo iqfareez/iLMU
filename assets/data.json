@@ -9,7 +9,7 @@
             "videos" : [
                 {
                     "title": "Chapter 1",
-                    "duration": "0.22",
+                    "duration": "1",
                     "level": "Basic",
                     "video": "assets/videos/course-arduino.mp4",
                     "thumbnail": "assets/images/course-arduino.jpg"
@@ -25,7 +25,7 @@
             "videos" : [
                 {
                     "title": "Chapter 1",
-                    "duration": "1.00",
+                    "duration": "1",
                     "level": "Basic",
                     "video": "assets/videos/course-batik.MP4",
                     "thumbnail": "assets/images/course-batik.jpg"
@@ -41,7 +41,7 @@
             "videos" : [
                 {
                     "title": "Chapter 1",
-                    "duration": "0.27",
+                    "duration": "1",
                     "level": "Basic",
                     "video": "assets/videos/course-gitar.mp4",
                     "thumbnail": "assets/images/course-guitar.jpg"
@@ -57,7 +57,7 @@
             "videos" : [
                 {
                     "title": "Chapter 1",
-                    "duration": "0.33",
+                    "duration": "1",
                     "level": "Basic",
                     "video": "assets/videos/course-videografi.MP4",
                     "thumbnail": "assets/images/course-video.jpg"
@@ -73,9 +73,9 @@
             "videos" : [
                 {
                     "title": "Chapter 1",
-                    "duration": "0.42",
+                    "duration": "1",
                     "level": "Basic",
-                    "video": "assets/videos/course-ps.MP4",
+                    "video": "assets/videos/course-ps.mp4",
                     "thumbnail": "assets/images/course-ps.jpg"
                 }
             ]
@@ -89,7 +89,7 @@
             "videos" : [
                 {
                     "title": "Chapter 1",
-                    "duration": "0.50",
+                    "duration": "1",
                     "level": "Basic",
                     "video": "assets/videos/course-tennis.MP4",
                     "thumbnail": "assets/images/course-tennis.jpg"
