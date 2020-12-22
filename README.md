@@ -1,6 +1,6 @@
 # iLMU
 
-A new Flutter project.
+Online course app.
 
 ## Getting Started
 
