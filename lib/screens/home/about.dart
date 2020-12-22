@@ -77,7 +77,7 @@ class About extends StatelessWidget {
                   "x",
                   -illust2size,
                   customText(context, 45.sp, FontWeight.normal, darkblue,
-                      "iLMU.com merupakan sebuah platform online yang mampu membantu anda dalam mempelajari sesuatu ilmu dan kemahiran dengan menonton video yang telah disediakan oleh tenaga pelajar yang berpengalaman.")),
+                      "iLMU merupakan sebuah platform online yang mampu membantu anda dalam mempelajari sesuatu ilmu dan kemahiran dengan menonton video yang telah disediakan oleh tenaga pelajar yang berpengalaman.")),
             ),
           )
         ],

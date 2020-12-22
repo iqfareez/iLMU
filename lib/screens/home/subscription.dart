@@ -182,8 +182,17 @@ class SubcriptionPlans extends StatelessWidget {
                             ],
                           ),
                         ),
-                        // customText(context, 36.sp, FontWeight.bold,
-                        //     Colors.white, "$desc"),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text(
+                            desc,
+                            style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontFamily: 'Nunito',
+                                color: Colors.white),
+                            textAlign: TextAlign.center,
+                          ),
+                        ),
                         SizedBox(height: planCardWidth * 1.2938.h * 0.1)
                       ],
                     ),
