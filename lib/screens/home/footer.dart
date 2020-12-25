@@ -116,7 +116,7 @@ class Footer extends StatelessWidget {
                         customText(context, 60.sp, FontWeight.bold,
                             Colors.white, "SERTAI KAMI"),
                         customText(context, 40.sp, FontWeight.normal,
-                            Colors.white, "Hubungi: 013-4971065"),
+                            Colors.white, "Hubungi: 0193984xxxx"),
                         customText(context, 40.sp, FontWeight.normal,
                             Colors.white, "Email: iLMU@mysite.com"),
                       ],

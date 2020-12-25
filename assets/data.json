@@ -1,100 +1,68 @@
 {
     "items": [
         {
-            "title": "Arduino",
-            "brief": "Ilmu programming yang melibatkan IoT",
-            "desc": "Anda pernah mendengar mengenai Arduino? Apakah Arduino? Jom! Sertai kelas Dr Farhana bagi mengetahui Arduino dengan lebih mendalam. Arduino adalah micropengawal atau lebih dikenali sebagai “microcontroller” . Arduino merupakan platform permulaan bagi mempelajari mikropengawal dengan mudah dan murah, juga boleh digunakan oleh orang selain jurutera. Kelas Arduino ini akan dibimbing oleh Dr Farhana yang mempunyai PhD dalam bidang robotik dari UiTM.",
+            "title": "Module 1",
+            "brief": "Module 1 briefing desc",
+            "desc": "Long desc: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
             "image": "assets/images/course-arduino.jpg",
-            "author": "Dr. Farhana",
+            "author": "Prof. 1",
             "videos" : [
                 {
                     "title": "Chapter 1",
                     "duration": "1",
                     "level": "Basic",
-                    "video": "assets/videos/course-arduino.mp4",
+                    "video": "assets/videos/sample-vid-1.mp4",
+                    "thumbnail": "assets/images/course-arduino.jpg"
+                },
+                {
+                    "title": "Chapter 2",
+                    "duration": "1",
+                    "level": "Basic",
+                    "video": "assets/videos/sample-vid-2.mp4",
+                    "thumbnail": "assets/images/course-arduino.jpg"
+                },
+                {
+                    "title": "Chapter 3",
+                    "duration": "1",
+                    "level": "Basic",
+                    "video": "assets/videos/sample-vid-1.mp4",
                     "thumbnail": "assets/images/course-arduino.jpg"
                 }
+                
             ]
         },
         {
-            "title": "Cetak Batik",
-            "brief": "Ilmu mencetak batik kaedah asli",
-            "desc": "Ilmu cetak Batik adalah salah satu ilmu traditional dari turun menurun yang sangat berharga di Malaysia. Kini anda boleh mempelajarinya dengan hanya menonton video-video yang telah disediakan oleh Encik Rosli iaitu salah seorang penenun batik yang terkemuka di Malaysia dan kini anda berpeluang untuk mendapat tempat ekslusif untuk menimbah ilmu dalam menenun batik dengan bimbingan dari beliau sendiri.",
+            "title": "Module 2",
+            "brief": "Module 2 is good here",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).            ",
             "image": "assets/images/course-batik.jpg",
-            "author":"Encik Farid",
+            "author":"Mr Hensem",
             "videos" : [
                 {
                     "title": "Chapter 1",
                     "duration": "1",
-                    "level": "Basic",
-                    "video": "assets/videos/course-batik.MP4",
+                    "level": "Intermediate",
+                    "video": "assets/videos/sample-vid-2.mp4",
                     "thumbnail": "assets/images/course-batik.jpg"
                 }
             ]
         },
         {
-            "title": "Gitar",
-            "brief": "Ilmu teori muzik dalam bermain gitar",
-            "desc": "Ingin belajar bermain gitar? Kursus ini merangkumi pelbagai aspek bermain gitar termasuk tetapi tidak terhad kepada; teknik memetik, ilmu teori kod, ilmu bermain solo, teknik penjagaan gitar dan juga cara mencipta melodi. Ilmu yang disediakan adalah daripada asas sehinggalah tahap tinggi. Kursus ini disusun rapi oleh Encik Shafiq, seorang bekas pemain gitar untuk kumpulan music Pistol dan Ros dan mempunyai lebih 25 tahun pengalaman bermain.",
+            "title": "Module 3",
+            "brief": "Slow and steady",
+            "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.            ",
             "image": "assets/images/course-guitar.jpg",
-            "author":"Cikgu Shafiq",
+            "author":"Bro Maple",
             "videos" : [
                 {
                     "title": "Chapter 1",
                     "duration": "1",
-                    "level": "Basic",
-                    "video": "assets/videos/course-gitar.mp4",
+                    "level": "Advanced",
+                    "video": "assets/videos/sample-vid-1.mp4",
                     "thumbnail": "assets/images/course-guitar.jpg"
                 }
             ]
-        },
-        {
-            "title": "Videografi",
-            "brief": "Mengetahui teknik mengolah yang betul",
-            "desc": "Kursus ini merangkumi penyuntingan digital yang menggunakan alat perisian semasa. Anda akan belajar cara pengunaan perkakasan dan perisian penyuntingan digital bukan linear dan penciptaan audio pelbagai trek.  Proses pembelajaran  ini dilakukan secara rakaman video latihan yang akan disediakan khas oleh Cik Rehan iaitu seorang video editor yang professional dan anda juga  berpeluang memiliki beberapa template khas beliau.",
-            "image": "assets/images/course-video.jpg",
-            "author":"Cik Rehan",
-            "videos" : [
-                {
-                    "title": "Chapter 1",
-                    "duration": "1",
-                    "level": "Basic",
-                    "video": "assets/videos/course-videografi.MP4",
-                    "thumbnail": "assets/images/course-video.jpg"
-                }
-            ]
-        },
-        {
-            "title": "Photoshop",
-            "brief": "Ilmu teori berkaitan Adobe Photoshop",
-            "desc": "Anda berminat untuk pelajari cara menggunakan adobe photoshop? Anda telah datang ke tempat yang betul. Cik Gloria akan mengajar cara untuk mahirkan ilmu berkaitan adobe photoshop. Cik Gloria mempunyai pengalaman selama 6 tahun berkerja sebagai salah satu penyunting di syarikat KBS iaitu salah satu syarikat Korea terbesar di dunia.",
-            "image": "assets/images/course-ps.jpg",
-            "author":"Cik Gloria",
-            "videos" : [
-                {
-                    "title": "Chapter 1",
-                    "duration": "1",
-                    "level": "Basic",
-                    "video": "assets/videos/course-ps.mp4",
-                    "thumbnail": "assets/images/course-ps.jpg"
-                }
-            ]
-        },
-        {
-            "title": "Tenis",
-            "brief": "Ilmu teori dan teknik-teknik sukan tenis",
-            "desc": "Tenis merupakan sukan yang terkenal di Malaysia dan sudah pastinya anda akan berminat untuk mengasah bakat anda untuk bermain tenis dengan teknik-teknik yang betul. Kelas ini akan dibimbing oleh Encik Farid iaitu salah seorang pemain tenis profesional yang pernah mewakili Malaysia di Sukan Sea dan kali ini anda berpeluang untuk belajar dengan beliau.",
-            "image": "assets/images/course-tennis.jpg",
-            "author":"Encik Farid",
-            "videos" : [
-                {
-                    "title": "Chapter 1",
-                    "duration": "1",
-                    "level": "Basic",
-                    "video": "assets/videos/course-tennis.MP4",
-                    "thumbnail": "assets/images/course-tennis.jpg"
-                }
-            ]
         }
+        
     ]
 }

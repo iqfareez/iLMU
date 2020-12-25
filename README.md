@@ -2,6 +2,6 @@
 
 Online course app.
 
-<!-- Ambil upah budak U ni siapkan projeck -->
+<!-- template app, with lighter app size -->
 
 ### MadeWithFlutter
